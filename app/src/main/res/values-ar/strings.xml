@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login">تسجيل الدخول</string>
+    <string name="UserName" translatable="false">اسم المستخدم</string>
+    <string name="password" translatable="false">كلمة السر</string>
+    <string name="remember_me" translatable="false">تذكرني</string>
+    <string name="don_t_have_account" translatable="false">لا تملك حساب ؟</string>
+    <string name="home" translatable="false">البداية</string>
+    <string name="favorite" translatable="false">المفضلة</string>
+    <string name="settings" translatable="false">الاعدادات</string>
+    <string name="Notifications" translatable="false">الاشعارات</string>
+    <string name="News_App" translatable="false">برنامج اخبار</string>
+    <string name="en" translatable="false">AR</string>
+    <string name="profile" translatable="false">الحساب</string>
+    <string name="genral" translatable="false">العام</string>
+    <string name="audioo_and_sound" translatable="false">الصوت والصوت</string>
+    <string name="prefernces" translatable="false">التفضيلات</string>
+    <string name="language" translatable="false">اللغة</string>
+    <string name="app_mode" translatable="false">وضع التطبيق</string>
+    <string name="loge_out" translatable="false">تسجيل الخروج</string>
+    <string name="No_data_available" translatable="false">لا يوجد عناصر محفوظة</string>
+    <string name="Loading" translatable="false">تحميل ......</string>
+
+
+    <string name="Document_changed" translatable="false">تم تغيير المستند</string>
+    <string name="massage" translatable="false">هل تريد حفظ تعديلاتك ؟</string>
+    <string name="Done" translatable="false">تم</string>
+    <string name="Yes" translatable="false">نعم</string>
+    <string name="No" translatable="false">لا</string>
+    <string name="app_version" translatable="false">إصدار التطبيق</string>
+    <string name="number_version" translatable="false">1.0.0</string>
+
+
+</resources>

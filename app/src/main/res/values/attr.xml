@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<declare-styleable name="dt">
+
+    <attr name="bgc" format="color"/>
+    <attr name="tC" format="color"/>
+    <attr name="Button_setting" format="color"/>
+    <attr name="account" format="color"/>
+    <attr name="Button_Navigation" format="color"/>
+    <attr name="text_setting_taital" format="color"/>
+    <attr name="text_news_ch" format="color"/>
+    <attr name="bcF" format="color"/>
+    <attr name="card_bk" format="color"/>
+    <attr name="icon_top" format="color"/>
+    <attr name="text" format="color"/>
+    <attr name="stroke" format="color"/>
+    <attr name="button_ar_en" format="color"/>
+    <attr name="but_logout" format="color"/>
+    <attr name="navigate_next" format="color"/>
+    <attr name="next" format="color"/>
+    <attr name="acount" format="color"/>
+    <attr name="txb" format="color"/>
+     
+
+
+</declare-styleable>
+
+
+
+</resources>
