@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".favart_fragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="?attr/card_bk"
+        tools:context=".MainActivity">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <SearchView
+                android:id="@+id/seachView_id"
+                android:layout_width="300dp"
+                android:layout_height="35dp"
+                android:searchIcon="@drawable/ic_baseline_search_24"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15sp"
+                android:layout_gravity="center"
+                android:background="@drawable/bk_style"
+                android:queryHint="Search Here ....." />
+
+
+            <TextView
+                android:id="@+id/text_home_en_ar"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/en"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:textColor="?attr/text"
+                android:layout_marginStart="30sp"
+                android:gravity="center"
+                android:backgroundTint="?attr/button_ar_en"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/favriet_text_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/favorite"
+                    android:visibility="gone"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="start"
+                    android:textColor="?attr/text"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/empty_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/No_data_available"
+                    android:visibility="gone"
+                    android:layout_marginTop="270dp"
+                    android:layout_gravity="center|clip_vertical"
+                    android:textColor="?attr/text"
+                    android:textSize="18sp"/>
+
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerview_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:listitem="@layout/item_recyclerview2" />
+            </LinearLayout>
+
+        </ScrollView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

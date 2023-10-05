@@ -18,8 +18,20 @@ data class Article(
         @Expose
         val title: String? = "",
 
+        @SerializedName("content")
+        @Expose
+        val content: String? = "",
+
+
+        @SerializedName("publishedAt")
+        @Expose
+        val publishedAt: String? = "",
 
         @SerializedName("urlToImage")
         @Expose
-        val urlToImage: String? = ""
+        val urlToImage: String? = "",
+
+
+        var isliked:Boolean=false
+
     )

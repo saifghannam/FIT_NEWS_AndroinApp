@@ -1,61 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-
+    android:background="?attr/card_bk"
+    android:orientation="horizontal"
     android:layout_height="wrap_content">
-
-
-    <ImageView
-        android:id="@+id/Img_NEWS_ID"
-        android:layout_width="170dp"
-        android:layout_height="151dp"
-        android:layout_marginTop="16dp"
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:layout_constraintTop_toTopOf="parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/checkbox_meat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:button="@drawable/selector_wishlist_item" />
 
     <TextView
         android:id="@+id/Title_News_ID"
-        android:layout_width="165dp"
-        android:layout_height="69dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:text="TextView"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/Img_NEWS_ID"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/Descrpition_News_ID"
-        android:layout_width="147dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="24dp"
+        android:layout_width="168dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
         android:ellipsize="end"
-        android:maxLines="2"
+        android:gravity="start"
+        android:maxLines="6"
+        android:paddingStart="20dp"
+        android:paddingTop="15dp"
+        android:paddingEnd="8dp"
         android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/Auter_News_ID"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.931"
+        android:textColor="?attr/account"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Img_NEWS_ID"
+        app:layout_constraintHorizontal_bias="0.277"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Title_News_ID"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.513" />
 
-    <TextView
-        android:id="@+id/Auter_News_ID"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="TextView"
+    <ImageView
+        android:id="@+id/Img_NEWS_ID"
+        android:layout_width="137dp"
+        android:layout_height="157dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/placeholder"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.172"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Img_NEWS_ID" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.285" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

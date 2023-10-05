@@ -1,3 +1,37 @@
 <resources>
-    <string name="app_name">Test</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="login">Log in</string>
+    <string name="UserName">UserName</string>
+
+    <string name="password" translatable="false">Password</string>
+    <string name="remember_me" translatable="false">Remember Me</string>
+    <string name="don_t_have_account" translatable="false">Don\'t have account?</string>
+    <string name="home" translatable="false">Home</string>
+    <string name="favorite" translatable="false">Favorite</string>
+    <string name="settings" translatable="false">settings</string>
+    <string name="Notifications" translatable="false">Notifications</string>
+    <string name="News_App" translatable="false">News App</string>
+    <string name="en" translatable="false">EN</string>
+    <string name="profile" translatable="false">Profile</string>
+    <string name="genral" translatable="false">Genral</string>
+    <string name="audioo_and_sound" translatable="false">Audioo and sound</string>
+    <string name="prefernces" translatable="false">Prefernces</string>
+    <string name="language" translatable="false">Language</string>
+    <string name="app_mode" translatable="false">App Mode</string>
+    <string name="loge_out" translatable="false">Log out</string>
+    <string name="No_data_available" translatable="false">No data available</string>
+    <string name="Loading" translatable="false">Loading....</string>
+
+
+    <string name="Document_changed" translatable="false">Document changed</string>
+    <string name="massage" translatable="false">Do you want to save your edits ?</string>
+    <string name="Done" translatable="false">Done</string>
+    <string name="Yes" translatable="false">Yes</string>
+    <string name="No" translatable="false">No</string>
+    <string name="app_version" translatable="false">app version</string>
+    <string name="number_version" translatable="false">1.0.0</string>
+
+
+
 </resources>

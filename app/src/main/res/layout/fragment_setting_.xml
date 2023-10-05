@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/bcF"
+    tools:context=".SettingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:textSize="20sp"
+
+            android:paddingStart="10dp"
+            android:paddingBottom="18dp"
+            android:textColor="@color/black"
+            android:text="@string/settings" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile"
+            android:paddingStart="20dp"
+            android:textColor="?attr/text_setting_taital"
+            android:textSize="15sp"
+            android:paddingBottom="10dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="346dp"
+            android:layout_height="87dp"
+            android:layout_marginStart="18dp"
+            android:paddingStart="35dp"
+            android:paddingEnd="25dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="81dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/ic_baseline_account_circle_24"
+                tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:layout_width="229dp"
+                android:layout_height="39dp"
+                android:layout_gravity="end|top"
+                android:paddingEnd="8dp"
+                android:paddingTop="10dp"
+                android:text="Saif Ghannam"
+                android:textColor="?attr/text"
+                android:textSize="20sp"
+                android:gravity="start" />
+
+            <TextView
+                android:layout_width="227dp"
+                android:layout_height="60dp"
+                android:layout_gravity="end|bottom"
+                android:gravity="start"
+                android:paddingEnd="8dp"
+                android:textColor="?attr/text"
+                android:paddingTop="15dp"
+                android:text="saifghannam@gmail.com"
+                android:textSize="15dp" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/genral"
+            android:textColor="?attr/text_setting_taital"
+            android:paddingStart="20dp"
+            android:paddingTop="15dp"
+            android:textSize="15sp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="353dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bk_style"
+            android:layout_marginStart="18dp"
+            android:paddingStart="35dp"
+            android:paddingEnd="25dp">
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Notifications"
+                    android:layout_weight="2"
+
+                    android:enabled="false"
+                    android:drawableTint="#9b9a9e"
+
+                    android:backgroundTint="?attr/Button_setting"
+                    android:drawableEnd="@drawable/ic_baseline_navigate_next_24"
+                    android:gravity="start" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/audioo_and_sound"
+                    android:enabled="false"
+                    android:backgroundTint="?attr/Button_setting"
+                    android:drawableTint="#9b9a9e"
+                    android:drawableEnd="@drawable/ic_baseline_navigate_next_24"
+                    android:gravity="start" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="353dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bk_style"
+            android:layout_marginStart="18dp"
+            android:paddingStart="35dp"
+            android:paddingEnd="25dp">
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="?attr/text"
+                        android:gravity="start"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="110dp"
+                        android:text="@string/language" />
+                    <RadioGroup
+                        android:id="@+id/radio_group"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/En"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="English" />
+                        <RadioButton
+                            android:id="@+id/Ar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="العربية" />
+                    </RadioGroup>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <Switch
+                    android:id="@+id/switch1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/app_mode"
+                    android:textAlignment="viewStart"
+                    android:textColor="?attr/text"
+                    android:thumb="@drawable/thumb"
+                    android:track="@drawable/track"
+                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/button2"
+            android:backgroundTint="?attr/but_logout"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="?attr/txb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/loge_out" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_version"
+            android:textColor="?attr/text_setting_taital"
+            android:paddingStart="150dp"
+            android:paddingTop="15dp"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.0.0"
+            android:textColor="?attr/text_setting_taital"
+            android:paddingStart="190dp"
+            android:textSize="10sp" />
+    </LinearLayout>
+</FrameLayout>

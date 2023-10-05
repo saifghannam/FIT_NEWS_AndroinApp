@@ -7,9 +7,13 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface ServesAPI {
+   // @GET("post/1")
+   //  fun getPost(): Call<Headlines>
 
-    @GET("top-headlines")
 
+
+    @GET("top-headlines") //? stop
     fun getPost(@Query("country") country:String, @Query("apiKey") apiKey:String): Call<Headlines>
+
 
 }

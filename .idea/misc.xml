@@ -3,8 +3,59 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/layout/activity_main.xml" value="0.10989583333333333" />
-        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/layout/item_recyclerview.xml" value="0.264" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable-v24/ic_baseline_live_tv_23.xml" value="0.2135" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable/bk_style.xml" value="0.1365" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable/favert_selector.xml" value="0.1995" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable/home_selector.xml" value="0.1995" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1655" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.224" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable/ic_baseline_favorite_242.xml" value="0.226" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable/ic_baseline_home_23.xml" value="0.1995" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.226" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable/ic_baseline_language_24.xml" value="0.199" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable/ic_baseline_navigate_next_24.xml" value="0.1655" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable/ic_baseline_newspaper_24.xml" value="0.1255" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable/ic_baseline_place_24.xml" value="0.2505" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable/ic_baseline_wb_sunny_24.xml" value="0.186" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable/selector_wishlist_item.xml" value="0.2515" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable/sepash_backgrand.xml" value="0.1575" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable/shape_bcakgrund.xml" value="0.204" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable/splash_background.xml" value="0.1575" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable/stayle_header.xml" value="0.122" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable/thumb.xml" value="0.186" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable/thumbfalse.xml" value="0.186" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable/thumbtrue.xml" value="0.16799999999999998" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/drawable/track.xml" value="0.186" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/layout-land/fragment_home_fragment.xml" value="0.21164021164021163" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/layout/activity_login_screen.xml" value="0.2" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/layout/activity_main2.xml" value="0.16" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/layout/activity_main3.xml" value="0.2" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/layout/custom_dialog.xml" value="0.14629629629629629" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/layout/fragment_clecked_news.xml" value="0.176" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/layout/fragment_favart_fragment.xml" value="0.15757575757575756" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/layout/fragment_home_fragment.xml" value="0.176" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/layout/fragment_home_screen_.xml" value="0.1" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/layout/fragment_one.xml" value="0.20512820512820512" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/layout/fragment_setting_.xml" value="0.2" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/layout/item_recyclerview.xml" value="0.2" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/layout/item_recyclerview2.xml" value="0.16" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/layout/ithem_recycelview2.xml" value="0.20512820512820512" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/layout/nav_header.xml" value="0.20512820512820512" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/layout/them_recycerrview2.xml" value="0.16" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/menu/navigator_menu.xml" value="0.2" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/menu/top_app_bar.xml" value="0.1" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/Saifg/AndroidStudioProjects/Test/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/Saifg/OneDrive/Desktop/backup/Test/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/Saifg/OneDrive/Desktop/backup/Test/app/src/main/res/layout/activity_main3.xml" value="0.20512820512820512" />
       </map>
     </option>
   </component>

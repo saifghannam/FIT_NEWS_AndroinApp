@@ -1,16 +1,48 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Test" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.Test" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryVariant">#000000</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondary">#2fb166</item>
         <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorOnSecondary">@color/white</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <item name="Button_setting">#424242</item>
+        <item name="Button_Navigation">#000000</item>
+
+        <item name="tC">#FEFDFF</item>
+        <item name="account">#FFFFFF</item>
+        <item name="text_news_ch">#000000</item>
+        <item name="bcF">#000000</item>
+        <item name="card_bk">#000000</item>
+        <item name="text_setting_taital">#FFFFFF</item>
+        <item name="icon_top">@drawable/ic_baseline_live_tv_23</item>
+        <item name="text">@color/white</item>
+        <item name="stroke">#424242</item>
+        <item name="button_ar_en">@color/black</item>
+        <item name="but_logout">#2fb166</item>
+        <item name="navigate_next">@drawable/ic_baseline_navigate_next_24</item>
+        <item name="next">#FFFFFF</item>
+        <item name="txb">#FFFFFF</item>
+
         <!-- Customize your theme here. -->
+    </style>
+
+<style name="button">
+    <item name="buttonTint">@color/white</item>
+
+
+    </style>
+
+    <style name="TextColor">
+        <item name="android:textColor">@color/white</item>
+
     </style>
 </resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.test.fragment_home_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/card_bk"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <SearchView
+                android:id="@+id/seachView_id"
+                android:layout_width="300dp"
+                android:layout_height="35dp"
+                android:searchIcon="@drawable/ic_baseline_search_24"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15sp"
+                android:layout_gravity="center"
+                android:background="@drawable/bk_style"
+                android:queryHint="Search Here ....." />
+
+
+            <TextView
+                android:id="@+id/text_home_en_ar"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/en"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:textColor="?attr/text"
+                android:layout_marginStart="30sp"
+                android:gravity="center"
+                android:backgroundTint="?attr/button_ar_en"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="wrap_content"
+            android:layout_height="179dp">
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/iamgenews"
+
+                android:layout_width="389dp"
+                android:layout_height="match_parent"
+                app:iss_auto_cycle="true"
+                app:iss_error_image="@drawable/placeholder"
+                app:iss_placeholder="@drawable/placeholder"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:scrollbars="none">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerview_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical"
+
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+
+
+                    tools:listitem="@layout/item_recyclerview" />
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>
